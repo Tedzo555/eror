@@ -31,8 +31,8 @@ global.APIs = { // API Prefix
   LeysCoder: 'https://leyscoders-api.herokuapp.com'
 }
 global.APIKeys = { // APIKey Here
-  // 'https://website': 'KingOfBear' (apikey kalian)
-  'https://api.xteam.xyz': 'KingOfBear', 
+  // 'https://website': 'cb15ed422c71a2fb' (apikey kalian)
+  'https://api.xteam.xyz': 'cb15ed422c71a2fb', 
   'https://api.lolhuman.xyz': 'RFK-Rey',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.zeks.me': 'apivinz',
@@ -42,7 +42,7 @@ global.APIKeys = { // APIKey Here
 
 lolkey = 'RFK-Rey'
 zekskey = 'apivinz'
-xteamkey = 'KingOfBear'
+xteamkey = 'cb15ed422c71a2fb'
 //xteam        MIMINETBOT
 namaig = 'GAK ADA :)'
 namagithub = 'GAK ADA :)'
