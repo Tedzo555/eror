@@ -12,8 +12,8 @@ let handler = async (m, { conn }) => {
 ╠═ Tertarik Untuk Beli Bot Ini?
 ╠➥Ketuk Tombol Di Bawah Ya
 ║
-╠═ ©2021 Rpg wabot-aq
-╠═ Scrip original by Nurutomo
+╠═ ©2021 Rpg fahrilbotz
+╠═ Scrip original by fahril ahmad
 ╠═〘 ${namabot} 〙 ═`.trim(), footer, 'Dana', '#viadana', 'OVO', '#viaovo', 'Pulsa', '#viapulsa', m)
 }
 
