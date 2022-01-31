@@ -33,14 +33,14 @@ global.APIs = { // API Prefix
 global.APIKeys = { // APIKey Here
   // 'https://website': 'cb15ed422c71a2fb' (apikey kalian)
   'https://api.xteam.xyz': 'cb15ed422c71a2fb', 
-  'https://api.lolhuman.xyz': 'RFK-Rey',
+  'https://api.lolhuman.xyz': 'rey2k21',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.zeks.me': 'apivinz',
   'https://pencarikode.xyz': 'pais',
   'https://leyscoders-api.herokuapp.com': 'dappakntlll'
 }
 
-lolkey = 'RFK-Rey'
+lolkey = 'rey2k21'
 zekskey = 'apivinz'
 xteamkey = 'cb15ed422c71a2fb'
 //xteam        MIMINETBOT
