@@ -231,7 +231,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         "listMessage": {
           "title": `${ucapan()}, ${name}`.trim(),
           "description": `
-┏━━〔 INFO 〕━⬣
+┏━━〔 𝐈𝐍𝐅𝐎 𝐁𝐎𝐓 〕━⬣
 ┃⬡ Aktif selama ${uptime}
 ┃⬡ Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
 ┃⬡ *${Object.keys(global.db.data.users).length}* Pengguna
@@ -241,7 +241,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ┃
 ┃⬡ Script by fahril
-┃⬡ HOST BY @${global.kontak[0].split`@`[0]}`,
+┃⬡ HOST BY @${global.kontak[0].split`@`[0]}
 ┗━━━━━━━━⬣`.trim(),
           "buttonText": "Klick disini🗿",
           "listType": "SINGLE_SELECT",
