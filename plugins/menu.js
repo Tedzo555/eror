@@ -241,7 +241,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ┃
 ┃⬡ Script by fahril
-┃⬡ *${@${global.kontak[0].split`@`[0]}* HOST BY
+┃⬡ HOST BY @${global.kontak[0].split`@`[0]}
 ┗━━━━━━━━⬣`.trim(),
           "buttonText": "Klick disini",
           "listType": "SINGLE_SELECT",
