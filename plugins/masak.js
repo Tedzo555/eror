@@ -7,16 +7,19 @@ let handler = async (m, { conn, text }) => {
   if (!json.title) throw json
   await conn.sendFile(m.chat, json.thumb, '', `
 ${json.title}
-${json.url}\n
+${json.url}
+
 *Tingkat:* ${json.tingkat}
 *Durasi:* ${json.duration}
-*Porsi:* ${json.banyak}\n\n
+*Porsi:* ${json.banyak}
+
+
 *Bahan:* ${json.bahan}
 *Cara:* ${json.cara}
 `.trim(), m)
 }
 handler.help = ['resep <makanan>', 'masak <makanan>']
-handler.tags = ['internet', 'edukasi']
+handler.tags = ['internet']
 handler.command = /^(resep|masak)$/i
 
 module.exports = handler
