@@ -242,7 +242,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃
 ┃⬡ Script by fahril
 ┃⬡ Run bot : Heroku
-┃⬡ Tipe SC fahrilbotz
+┃⬡ note : jangan spam bot
 ┗━━━━━━━━⬣`.trim(),
 "buttonText": "Klick disini",
           "listType": "SINGLE_SELECT",
@@ -262,7 +262,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "description": "Menu Edukasi",
                   "rowId": ".? edukasi"
                 }, {
-                  "title": 📰 News",
+                  "title": "📰 News",
                   "description": "Menu Berita",
                   "rowId": ".? News"
                 },  {
