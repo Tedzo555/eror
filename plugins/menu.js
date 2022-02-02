@@ -234,7 +234,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┏━━〔 Inpone mazeh 〕━⬣
 ┃⬡ ⏰Aktif selama ${uptime}
 ┃⬡ ⚡Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
-┃⬡ 👾github:github.com/Fahrilahmad
+┃⬡ 👾github : github.com/Fahrilahmad
 ┃⬡ 
 ┃⬡ *${conn.blocklist.length}* Terblock
 ┃⬡ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
