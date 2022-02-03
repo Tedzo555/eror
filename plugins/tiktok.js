@@ -22,7 +22,7 @@ handler.help = ['tiktok <url>']
 handler.tags = ['downloader']
 //handler.command = /^tiktok$/i
 handler.command = /^(tik(tok)?(dl)?)$/i
-handler.limit = true
+handler.limit = false
 module.exports = handler
 
 
